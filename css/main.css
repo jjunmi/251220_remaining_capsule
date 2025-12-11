@@ -26,6 +26,7 @@ h2 {font-size: 38px;font-weight: 700;margin-bottom: 20px;}
 .list-wrap li p {font-size: 18px;padding-top: 10px;text-align: center;}
 .list-wrap .img-wrap {position: relative;overflow: hidden;padding-top: 101%;}
 .list-wrap .img-wrap img {position: absolute;left: 50%; top: 0;transform: translate(-50%, 0%);}
+.list-wrap .img-wrap img.fin {filter: grayscale(100%);opacity:50%;}
 @media (max-width: 1080px) {
     .list-wrap li {width: 30%;}
 }
